@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Snapchat Web CameraKit Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Snapchat Web CameraKit Project is a web-based application that allows users to apply filters and effects to their webcam feed, similar to the popular features found in the Snapchat mobile app. This project is implemented in JavaScript and utilizes ZapWorks for 3D features.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Webcam Filters**: Users can choose from a variety of filters and effects to apply to their webcam feed in real-time.
+  
+- **Face Detection**: The application uses face detection technology to accurately apply filters to users' faces.
+  
+- **3D Features**: Utilizing ZapWorks, users can experience interactive 3D filters and effects on their webcam feed.
+  
+- **Snapchat-like Experience**: Users can enjoy a Snapchat-like experience on the web with interactive filters and effects.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **JavaScript**: A popular programming language for building interactive web applications.
+  
+- **WebRTC**: A web technology that enables real-time communication and access to the webcam and microphone.
+  
+- **Face-API.js**: A JavaScript library for face detection and recognition in the browser.
+  
+- **ZapWorks**: A platform for creating augmented reality (AR) experiences, including 3D filters and effects.
+  
+- **HTML/CSS**: Markup and styling languages for structuring and designing the web interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+1. Clone the repository:
+   ```
+   git clone https://github.com/mzulqarnain118/snapchat-web-kit.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Open the project directory in your code editor.
 
-### `npm run build`
+3. Run a local server (e.g., using VS Code's Live Server extension) to view the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Allow access to your webcam when prompted by the browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Choose a filter or effect from the available options and see it applied to your webcam feed in real-time, including interactive 3D features.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Acknowledgements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [WebRTC](https://webrtc.org/)
+- [Face-API.js](https://github.com/justadudewhohacks/face-api.js/)
+- [ZapWorks](https://www.zap.works/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any questions or feedback, please contact [ranamzulqarnain1@gmail.com].
